@@ -1,13 +1,14 @@
 # Minimal Vim Config for Competitive Programming in C++
 
-Lighweight config for vim'ing AtCoder contests.
+Lightweight configuration for vim'ing AtCoder contests.
 
 ## Requirements
 
-- Vim 8.0+ (recommended)
-- clangd language server
-- g++ compiler with C++20 support
-- fzf (Fuzzy Finder)
+- `vim` 8.0+ (recommended)
+- `clangd` language server
+- `g++` compiler with C++20 support
+- `fzf` (Fuzzy Finder)
+- `ripgrep`
 
 ## Plugins
 
@@ -82,7 +83,7 @@ This configuration uses Vundle for plugin management and includes the following 
 | Keybinding | Action |
 | -------------- | --------------- |
 | `;` | `:` |
-| '<C-x>'| Exit terminal mode |
+| `<C-x>`| Exit terminal mode |
 
 ### Fuzzy Finder
 
@@ -128,6 +129,8 @@ The configuration is thoroughly commented to make customization easy. Key areas 
 ## Contributing
 
 Feel free to submit issues or pull requests if you have suggestions for improvements or bug fixes.
+
+- If you like you may want to add some useful snippets or macros idk.
 
 ## License
 
