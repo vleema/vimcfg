@@ -90,6 +90,9 @@ Plugin 'junegunn/fzf.vim'
 " Auto close pairs
 Plugin 'Raimondi/delimitMate'
 
+" Clipboard for Wayland
+Plugin 'jasonccox/vim-wayland-clipboard'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
